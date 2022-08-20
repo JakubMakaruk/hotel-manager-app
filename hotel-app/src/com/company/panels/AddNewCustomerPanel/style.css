@@ -1,0 +1,50 @@
+#backgroundPanel{
+	-fx-background-color: linear-gradient(#3c3c3c, #262626);
+	-fx-view-order: 1;
+}
+
+.input:focused{
+	-fx-faint-focus-color: transparent;
+    	-fx-focus-color: #dda212;
+}
+
+
+#signUpButton{
+	-fx-padding: 8 15 15 15;
+    	-fx-background-insets: 0,0 0 5 0,0 0 6 0,0 0 7 0;
+    	-fx-background-radius: 8;
+    	-fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%,#976e0b 0%,#976e0b 100%),
+             #8e680b,
+             #976e0b,
+            radial-gradient(center 50% 50%, radius 100%,#e6a303,#c8900a);
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.75),4,0,0,1);
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+#signUpButton:hover
+{
+
+    -fx-background-color:
+        linear-gradient(from 0% 93% to 0% 100%, #976e0b 0%, #976e0b 100%),
+        #8e680b,
+        #976e0b,
+        radial-gradient(center 50% 50%, radius 100%, #ffb300, #e9a60c);
+}
+
+#signUpButton:pressed
+{
+     -fx-padding: 10 15 13 15;
+     -fx-background-insets: 2 0 0 0,2 0 3 0,2 0 4 0,2 0 5 0;
+}
+
+#backButton {
+    -fx-background-color: transparent;
+    -fx-text-fill: #c8900a;
+    -fx-cursor: hand;
+}
+#backButton:hover {
+    -fx-text-fill: #eca90c;
+}

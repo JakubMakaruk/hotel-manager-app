@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.panels.HomePanel.Controller">
+   <center>
+      <AnchorPane fx:id="backgroundPanel" prefHeight="600.0" prefWidth="949.0" stylesheets="@style.css" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="179.0" layoutX="35.0" layoutY="37.0">
+               <image>
+                  <Image url="@images/logo300x250.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="3.0" layoutY="211.0" mnemonicParsing="false" onMouseClicked="#switchToHomePanel" prefHeight="36.0" prefWidth="106.0" stylesheets="@style.css" text="Home">
+               <graphic>
+                  <FontAwesomeIconView glyphName="HOME" selectionStart="1" size="20" styleClass="menuButtonIcon" translateX="-10.0" />
+               </graphic>
+               <styleClass>
+                  <String fx:value="menuButton" />
+                  <String fx:value="active" />
+               </styleClass>
+            </Button>
+            <Button layoutX="3.0" layoutY="293.0" mnemonicParsing="false" onMouseClicked="#switchToClientsPanel" prefHeight="36.0" prefWidth="106.0" styleClass="menuButton" stylesheets="@style.css" text="Clients">
+               <graphic>
+                  <FontAwesomeIconView glyphName="USER" selectionStart="1" size="20" styleClass="menuButtonIcon" translateX="-10.0" />
+               </graphic>
+            </Button>
+            <Button layoutX="3.0" layoutY="376.0" mnemonicParsing="false" onMouseClicked="#switchToReservationsPanel" prefHeight="36.0" prefWidth="106.0" styleClass="menuButton" stylesheets="@style.css" text="Reservations">
+               <graphic>
+                  <FontAwesomeIconView glyphName="ID_CARD" selectionStart="1" size="20" styleClass="menuButtonIcon" translateX="-10.0" />
+               </graphic>
+            </Button>
+            <Button layoutX="3.0" layoutY="459.0" mnemonicParsing="false" onMouseClicked="#switchToManagementPanel" prefHeight="36.0" prefWidth="106.0" styleClass="menuButton" stylesheets="@style.css" text="Management">
+               <graphic>
+                  <FontAwesomeIconView glyphName="PENCIL" selectionStart="1" size="20" styleClass="menuButtonIcon" translateX="-10.0" />
+               </graphic>
+            </Button>
+            <Label fx:id="helloTitle" alignment="CENTER" layoutX="452.0" layoutY="224.0" prefHeight="253.0" prefWidth="501.0" styleClass="homeTitle" stylesheets="@style.css" text="Hello admin!" textAlignment="CENTER" textFill="#cdcdcd">
+               <font>
+                  <Font size="17.0" />
+               </font></Label>
+            <Button layoutX="89.0" layoutY="619.0" mnemonicParsing="false" onMouseClicked="#switchToLoginPanel" prefHeight="25.0" prefWidth="68.0" styleClass="logoutButton" stylesheets="@style.css" text="Logout" />
+         </children></AnchorPane>
+   </center>
+</BorderPane>

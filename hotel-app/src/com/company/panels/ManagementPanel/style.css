@@ -1,0 +1,82 @@
+#backgroundPanel{
+	-fx-background-color: linear-gradient(#3c3c3c, #262626);
+	-fx-view-order: 1;
+}
+
+
+.menuButton {
+    -fx-font-size: 15px;
+    -fx-pref-height: 80px;
+    -fx-pref-width: 240px;
+    -fx-background-color: transparent;
+    -fx-text-fill: #c8900a;
+    -fx-cursor: hand;
+}
+.menuButton:hover {
+    -fx-text-fill: #eca90c;
+    -fx-background-color: rgba(255, 255, 255, 0.164);
+}
+.active {
+    -fx-background-color: rgba(255, 255, 255, 0.075);
+}
+
+.menuButtonIcon {
+    -fx-fill: #c8900a;
+    -fx-margin: 0 20 0 0;
+}
+
+.management {
+    -fx-font-size: 28px;
+    -fx-text-fill: #c8900a;
+	-fx-font-weight: bold;
+}
+
+.inputSearch {
+    -fx-min-width: 100px;
+    -fx-background-color: transparent;
+    -fx-border-width: 1px;
+    -fx-border-style: hidden hidden solid hidden;
+    -fx-border-color: #c8900a;
+    -fx-text-fill: #b1b1b1;
+    -fx-padding: 0 0 0 2;
+}
+
+.statisticsText {
+	-fx-font-size: 16px;
+	-fx-text-fill: #c8900a;
+	-fx-font-weight: bold;
+}
+
+.statisticsLabel {
+	-fx-font-size: 14px;
+	-fx-text-fill: #c8900a;
+}
+
+.logoutButton {
+    -fx-background-color: transparent;
+    -fx-text-fill: #c8900a;
+    -fx-cursor: hand;
+}
+.logoutButton:hover {
+    -fx-text-fill: #eca90c;
+}
+
+.addNewButton {
+    -fx-background-color: transparent;
+    -fx-min-width: 180px;
+    -fx-text-fill: #eca90c;
+    -fx-cursor: hand;
+}
+.addNewButton:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.075);
+}
+
+.wrongLabel {
+	-fx-font-size: 14px;
+	-fx-text-fill: #FC3F3F;
+}
+
+.activeLabel {
+        -fx-font-size: 14px;
+	-fx-text-fill: #81DC4D;
+}

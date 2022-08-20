@@ -1,0 +1,40 @@
+#backgroundPanel{
+	-fx-background-color: linear-gradient(#3c3c3c, #262626);
+	-fx-view-order: 1;
+}
+
+
+.menuButton {
+    -fx-font-size: 15px;
+    -fx-pref-height: 80px;
+    -fx-pref-width: 240px;
+    -fx-background-color: transparent;
+    -fx-text-fill: #c8900a;
+    -fx-cursor: hand;
+}
+.menuButton:hover {
+    -fx-text-fill: #eca90c;
+    -fx-background-color: rgba(255, 255, 255, 0.164);
+}
+.active {
+    -fx-background-color: rgba(255, 255, 255, 0.075);
+}
+
+.menuButtonIcon {
+    -fx-fill: #c8900a;
+    -fx-margin: 0 20 0 0;
+}
+
+.homeTitle {
+    -fx-font-size: 28px;
+    -fx-text-fill: #c8900a;
+}
+
+.logoutButton {
+    -fx-background-color: transparent;
+    -fx-text-fill: #c8900a;
+    -fx-cursor: hand;
+}
+.logoutButton:hover {
+    -fx-text-fill: #eca90c;
+}
