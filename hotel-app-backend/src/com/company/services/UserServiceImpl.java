@@ -29,14 +29,13 @@ public class UserServiceImpl implements UserService {
     public boolean signUp(String firstname, String lastname, String username, String password) throws SQLException {
         User user = new User(firstname, lastname, username, password);
         userDao.create(user);
-        System.out.println("Pomyslnie stworzono uzytkownika!");
+        System.out.println("Successfully created user!");
         return true;
     }
 
     @Override
     public boolean checkIfUserExists(String username) throws SQLException {
         List<User> users = userDao.queryForEq("username", username);
-        System.out.println("patrze czy jest uzytkownik....");
         return users.size() > 0;
     }
 
