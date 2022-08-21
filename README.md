@@ -19,6 +19,8 @@ Projekt zaliczeniowy z przedmiotu "Repetytorium z programowania", w którym stwo
 - JDBC
 - JavaFX (FontAwesomeFX)
 
+[Download required modules](https://www101.zippyshare.com/v/HlO71X6A/file.html)
+
 ## Zdjęcia podglądowe
 #### Panel logowania oraz rejestracji
 <p align="center">
